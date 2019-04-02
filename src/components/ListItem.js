@@ -7,7 +7,7 @@ import {
 } from 'react-native';
 import { connect } from 'react-redux';
 import { CardSection } from './common';
-import * as actions from './actions';
+import * as actions from '../actions';
 
 class ListItem extends Component {
   componentWillUpdate() {
